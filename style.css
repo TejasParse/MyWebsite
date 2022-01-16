@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    /* margin: 20px; */
+    color: white;
+    margin: 0px;
+}
+
+#NameHeader {
+    padding-left: 15px;
+    color: white;
+    display: inline-block;
+    flex-grow: 1;
+    font-size: 3.0em;
+    font-family: 'Dongle',sans-serif;
+}
+
+#headerNav {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    border-bottom: 1px white solid;
+
+    
+}
+
+.headerLink {
+    color: white;
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 5px 10px 5px 10px;
+    
+    margin: 10px;
+    transition: 0.8s;
+    font-family: 'Dongle',sans-serif;
+    font-size: 1.5em;
+    
+
+}
+
+.headerLink:hover {
+    border: 2px rgb(241, 185, 0) solid;
+    color: rgb(241, 185, 0);
+    box-shadow: 2px 5px 10px white;
+
+    font-size: 1.6em;
+}
+
+main {
+    background-image: url("images/bg-images.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#welcome {
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+}
+
+#aboutme {
+    margin: 20px;
+    border: 2px white solid;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 1.0s;
+    
+}
+
+#aboutme:hover {
+    background-color: black;
+    box-shadow: 5px 5px 10px white;
+}
+
+@media only screen and (max-width: 700px) {
+    #aboutme {
+        flex-wrap: wrap;
+    }
+  }
+
+#image {
+    width: 250px;
+    padding: 20px;
+    
+}
+
+#aboutmetext {
+    padding: 20px;
+    flex-grow: 2;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+header {
+    padding-top: 8px;
+    background-color: black;
+    margin: 0px;
+
+
+    position: sticky;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+    z-index: 100;
+    
+}
+
+#aboutmetextH2 {
+    padding: 10px;
+    font-size: 2em;
+}
+
+#aboutmetextP {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
